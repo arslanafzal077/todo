@@ -46,6 +46,7 @@ const Home = (props) => {
     props.navigation.navigate('Detail')
   }
 
+  
   let state = props.state.app.home
   return (
     <SafeAreaView style={styles.SafeAreaView2}>
